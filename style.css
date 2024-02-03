@@ -47,4 +47,5 @@ a:hover {
   color: #fccd60;
   font-family: "Syne", sans-serif;
   box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }

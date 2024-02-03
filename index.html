@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Haiku Generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>AI Haiku Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="haiku-generator-form">
           <input
             class="key-words"
             type="text"
@@ -29,13 +30,7 @@
           />
           <input class="submit-button" type="submit" value="Write haiku" />
         </form>
-        <div class="haiku">
-          An old silent pond <br />
-
-          A frog jumps into the pond— <br />
-
-          Splash! Silence again.
-        </div>
+        <div id="haiku" class="haiku"></div>
       </main>
     </div>
     <footer>
@@ -45,5 +40,6 @@
         >open-sourced</a
       >
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
