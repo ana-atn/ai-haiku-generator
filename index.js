@@ -3,7 +3,7 @@ function displayHaiku(response) {
     strings: response.data.answer,
     autoStart: true,
     cursor: null,
-    delay: 20,
+    delay: 60,
   });
 }
 
