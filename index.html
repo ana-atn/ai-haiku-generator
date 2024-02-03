@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>AI Haiku Generator</title>
   </head>
   <body>
@@ -21,16 +22,21 @@
       <main>
         <form id="haiku-generator-form">
           <input
+            id="key-word"
             class="key-words"
             type="text"
-            placeholder="Enter key words..."
+            placeholder="Enter key word..."
             autofocus
             required
             autocomplete="off"
           />
           <input class="submit-button" type="submit" value="Write haiku" />
         </form>
-        <div id="haiku" class="haiku"></div>
+        <div id="haiku" class="haiku">
+          Ripples on the pond, <br />
+          Reflections dance in stillness,<br />
+          Nature's mirror shines.
+        </div>
       </main>
     </div>
     <footer>
